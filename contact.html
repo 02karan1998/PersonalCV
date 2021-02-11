@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>contact information</title>
+</head>
+
+<body>
+  <h2>Contact me</h2>
+  <p><strong>Name: </strong>Karan Shukla</p>
+  <p><strong>Email: </strong>karan02.1998@gmail.com</p>
+  <p><strong>Contact number :</strong>7395940986</p>
+
+
+  <hr>
+  <br>
+  <br>
+
+  <p> <strong>Please enter your cotact information with a message and I'll get back to you.</strong> </p>
+  <br><br>
+  <form action="mailto:karan02.1998@gmail.com" method="post" enctype="text/plain">
+    <label><strong>Name:</strong></label>
+    <input type="text" name="Name" required><br>
+    <br>
+    <label><strong>Email:</strong></label>
+    <input type="email" name="Email" required>
+    <br><br>
+    <label> <strong>Phone:</strong> </label>
+    <input type="tel" name="phone" pattern="[0-9]{10}" required>
+    <small>Format: 9192789090</small>
+    <br><br>
+    <label><strong>Your Message:</strong></label><br>
+    <textarea name="name" rows="10" cols="30"></textarea><br><br>
+    <input type="checkbox" name="mailing-list" value="" required><label><em>I agree to be added into the mailing list</em></label><br><br>
+    <input type="submit" name="submit" value="submit">
+
+  </form>
+</body>
+
+</html>
